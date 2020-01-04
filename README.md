@@ -207,5 +207,24 @@ We release [OpenKE](https://github.com/thunlp/openKE), an open source toolkit fo
 	>  CrossE, a novel knowledge graph embedding which explicitly simulates crossover interactions. It not only learns one general embedding for each entity and relation as most previous methods do, but also generates multiple triple specific embeddings for both of them, named interaction embeddings.
 
 1. **Learning Attention-based Embeddings for Relation Prediction in Knowledge Graphs.**
-*Deepak Nathani, Jatin Chauhan, Charu Sharma, Manohar Kaul.* ACL 2019. [paper](https://arxiv.org/pdf/1906.01195.pdf) [code](https://github.com/deepakn97/relationPrediction)
+*Deepak Nathani, Jatin Chauhan, Charu Sharma, Manohar Kaul.* ACL 2019. [paper](https://arxiv.org/pdf/1906.01195.pdf) [code](https://github.com/deepakn97/relationPrediction) [blog](https://deepakn97.github.io/blog/2019/Knowledge-Base-Relation-Prediction/)
 	> This is a novel attention-based feature embedding model that captures both entity and relation features in any given entity’s neighborhood. This architecture is an encoder-decoder model where the generalized graph attention model and ConvKB play the roles of encoder and decoder respectively.
+
+1. **RSN: Learning to Exploit Long-term Relational Dependencies in Knowledge Graphs.**
+*Lingbing Guo, Zequn Sun, Wei Hu.* ICML 2019. [paper](http://proceedings.mlr.press/v97/guo19c/guo19c.pdf)  [supplementary](http://proceedings.mlr.press/v97/guo19c/guo19c-supp.pdf) [code](https://github.com/nju-websoft/RSN) 
+	> RSNs integrate recurrent neural networks with residual learning to efficiently capture the long-term relational dependencies of entities within and between KGs. We also design an end-to-end framework to support RSNs on two tasks link prediction and entity alignment. 
+
+1. **DihEdral: Relation Embedding with Dihedral Group in Knowledge Graph.**
+*Canran Xu, Ruijiang Li.* ACL 2019. [paper](https://arxiv.org/abs/1906.00687)
+    > DihEdral models the relation in knowledge graphs with the representation of dihedral group. It is a bilinear model and supports relation symmetry, skew-symmetry, inversion, abelian composition and non-abelian composition due to the properties of dihedral group. 
+
+1. **CapsE:A Capsule Network-based Embedding Model for Knowledge Graph Completion and Search Personalization.**
+*Dai Quoc Nguyen, Thanh Vu, Tu Dinh Nguyen, Dat Quoc Nguyen, Dinh Q. Phung.* NAACL-HIT 2019. [paper](https://www.aclweb.org/anthology/N19-1226) [code](https://github.com/daiquocnguyen/CapsE)
+    > CapsE employs capsule network to model the entries in the triple at the same dimension. The high-level hypothesis is that each capsule accounts for capture variants of a relation-specific attribute of the entities. The length of the final vector serves as the plausibility score of the triple.
+
+1. **CaRe: Open Knowledge Graph Embeddings**
+*Swapnil Gupta, Sreyash Kenkre, Partha Talukdar.*  EMNLP-IJCNLP 2019.[paper](http://talukdar.net/papers/CaRe_EMNLP2019.pdf) [code](https://github.com/malllabiisc/CaRE)
+	> CaRe focuses on canonicalization of OpenKGs. The model infuses canonicalization in-formation combined with the neighborhood graph structure to learn rich representations of NPs. And it captures the semantic similarity of RPs.
+
+
+
